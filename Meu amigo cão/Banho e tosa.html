@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banho e tosa</title>
+</head>
+<body>  
+    <a href="Index.html">Home</a>
+     
+    <h1>Agendamento para banho e tosa</h1>
+    <h2>Faça seu agendamento com pelo menos 48 horas de antecedência!!</h2>
+
+<fieldset>
+    <legend>Identificação do dono do animal</legend>   
+    <form action="">
+        <div>
+            <label>Nome:</label>
+            <input type="text" size="50" maxlength="150" placeholder="Digite o nome completo do dono do animal">
+        </div>
+        <br>
+        <div>
+            <label>Endereço:</label>
+            <input type="text" size="70" maxlength="150" placeholder="Digite o endereço"> 
+        </div>
+        <br>
+        <div>
+            <label>CEP:</label>
+            <input type="text" size="15" maxlength="150" placeholder="XXXXX-XXX"> 
+        </div>
+        <br>
+        <div>
+            <label>Email</label>
+            <input type="text" size="70" maxlength="150" placeholder="Digite seu endereço de email.">
+        </div>
+        <br>
+        <div>
+            <label>Tel/Cell</label>
+            <input type="text" size="15" maxlength="150" placeholder="99 99999-9999">
+        </div>
+        <br>
+        <div>
+            <label>Nome</label>
+            <input type="text" size="25" maxlength="150" placeholder="Digite o nome do animal"> 
+        </div>
+    </form>
+</fieldset>
+<fieldset>
+    <legend>Animal</legend>
+    <form action="">
+        <div>
+            <label>Nome:</label>
+            <input type="text" size="30" maxlength="150" placeholder="Digite o nome do animal">
+        </div>
+        <br>
+        <div>
+            <label>Porte do cão</label>
+            <input type="radio" name="porte"><label>Pequeno</label>
+            <input type="radio" name="porte"><label>Médio</label>
+            <input type="radio" name="porte"><label>Grande</label>
+        </div>
+        <br>
+        <div>
+            <label>Tipo de tosa</label>
+            <select name="Tosa" id="10">
+                <option value="Nenhuma">Nenhuma</option>
+                <option value="Simples">Simples</option>
+                <option value="Rapida">Rápida</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label>Obs:</label>
+            <textarea cols="70" rows="2" placeholder="Digite alguma informação do animal se necessário"></textarea>
+        </div>
+    </form>
+</fieldset>
+<fieldset>
+    <legend>Horário - Obs: Não atendemos aos domingos e às segundas-feiras</legend>
+    <div>
+        <p>Indique os dias da semana de sua preferência:</p>
+
+        <input type="checkbox" name="ter">
+        <label>Terça-Feira</label>
+
+        <input type="checkbox" name="qua">
+        <label>Quarta-Feira</label>
+
+        <input type="checkbox" name="qui">
+        <label>Quinta-Feira</label>
+
+        <input type="checkbox" name="sex">
+        <label>Sexta-Feira</label>  
+    </div>
+    <br>
+    <div>
+        <label>Primeira opção de horário:</label>
+        <input type="text" size="20" maxlength="150" placeholder="dd/mm/aaaa">
+    </div>
+    <br>
+    <div>
+        <label>Segunda opção de horário:</label>
+        <input type="text" size="20" maxlength="150" placeholder="dd/mm/aaaa">
+    </div>
+</fieldset>
+<input type="submit" value="Enviar">
+<body>
+</html>    
+    
